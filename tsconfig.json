@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "outDir": "dist",
+        "sourceMap": true,
+        "declaration": true, 
+        "stripInternal": true,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "module": "commonjs"
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*"
+    ],
+}
