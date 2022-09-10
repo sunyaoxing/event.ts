@@ -2,9 +2,12 @@
   "name": "event.ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "../dist/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha ./dist/test/index.js",
+    "clean": "rm -rf ./dist",
+    "build": "npx tsc",
+    "rebuild": "npm run clean; npm run build"
   },
   "author": "",
   "license": "ISC",
